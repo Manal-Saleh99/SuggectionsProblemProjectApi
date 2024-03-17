@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SuggectionsProblemProjectApiCore\SuggectionsProblemProjectApiCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repose\" />
+    <Folder Include="Servies\" />
+  </ItemGroup>
+
+</Project>
